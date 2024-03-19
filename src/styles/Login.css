@@ -1,0 +1,172 @@
+.container {
+  width: 27rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3.5rem;
+  border: 2px solid #22ff16;
+  border-radius: 2rem;
+  box-shadow: 6px 9px 11px 0px yellow;
+  animation: boxShadow 3s linear infinite;
+}
+
+.heading {
+  font-size: 3.5rem;
+  font-family: monospace;
+  text-decoration: overline;
+  text-align: center;
+  text-decoration-color: darkgreen;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  border-top: 2px solid;
+}
+
+hr {
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.input {
+  border: 0px;
+  border-bottom: 1px solid;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.input:hover {
+  transform: scale(1.02);
+}
+
+/* input[type="email"],
+input[type="password"],
+input[type="text"] {
+  outline: none;
+} */
+
+.submit-btn {
+  background-color: #000000;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+  border: 2px solid white;
+  font-weight: 900;
+  border-radius: 20px;
+}
+.submit-btn:hover {
+  background-color: white;
+  color: #000000;
+  border: 2px solid #000000;
+  /* animation: bgColor 2s linear infinite; */
+}
+@keyframes bgColor {
+  0% {
+    background-image: linear-gradient(
+      to right,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet
+    );
+  }
+  25% {
+    background-image: linear-gradient(
+      to right,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      to right,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red,
+      orange
+    );
+  }
+  75% {
+    background-image: linear-gradient(
+      to right,
+      green,
+      blue,
+      indigo,
+      violet,
+      red,
+      orange,
+      yellow
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      to right,
+      blue,
+      indigo,
+      violet,
+      red,
+      orange,
+      yellow,
+      green
+    );
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.footer-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #030303;
+  font-size: 1rem;
+}
+
+.register-link {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-as-admin label {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.login-as-admin input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

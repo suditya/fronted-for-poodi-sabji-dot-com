@@ -1,0 +1,42 @@
+.carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center; */
+}
+.carousel-image {
+  width: 95%;
+  height: 45vh;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-container {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: auto;
+  height: 300px;
+  /* background-color: aqua; */
+  margin-top: 30px;
+}
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: white;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #ccc;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
+}

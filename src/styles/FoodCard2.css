@@ -1,0 +1,58 @@
+.food-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.food-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.food-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.food-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.food-description {
+  overflow-y: auto;
+  max-height: 60px; /* Adjust as needed */
+  margin-bottom: 15px;
+  width: 100%;
+}
+/* 
+.addToCart {
+  display: flex;
+  align-items: center;
+}
+
+.addToCart button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.quantity {
+  margin: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.food-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 250px;
+  box-shadow: 9px 6px 17px 4px #3d3c3b33;
+  height: 450px;
+  transition: transform 0.3s ease-in-out;
+}

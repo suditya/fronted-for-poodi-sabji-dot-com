@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Grid 🛩️</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        align-items: center;
+        width: 95vw;
+        height: 90vh;
+        gap: 1px;
+        border: 1px solid;
+        grid-template-columns: repeat(4, minmax(259px, 100px));
+        align-items: center;
+        justify-items: center;
+    }
+
+    .grid-item {
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: minmax(200px, 50px);
+        align-items: center;
+        background-color: darkcyan;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+    </div>
+</body>
+
+</html>

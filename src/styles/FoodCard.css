@@ -1,0 +1,74 @@
+/* FoodCard.css */
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* .plus-minus-container {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+} */
+
+/* .plus-minus-buttons {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  display: inline-block;
+} */
+
+/* .quantity {
+  margin: 0 8px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */

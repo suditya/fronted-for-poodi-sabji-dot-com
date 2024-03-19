@@ -1,0 +1,14 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-image:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.low-stock {
+  background-color: #ffcccc; /* Light red for low stock */
+}
+
+.high-stock {
+  background-color: #ccffcc; /* Light green for high stock */
+}
+
+/* .add-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+.add-to-inventory-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 85%;
+  justify-items: center;
+  margin: 1.5rem auto;
+  align-items: center;
+  border: 1px solid;
+  padding: 1rem 2px;
+  justify-content: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  outline: none;
+  position: sticky;
+  top: 2rem;
+  /* left: 4rem; */
+  z-index: 2;
+  left: rem;
+  background-color: white;
+  padding: 10px 0px;
+}
+.inventory-table-container {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  height: 65vh;
+  flex-direction: column;
+  overflow-y: scroll;
+  position: fixed;
+  left: 50%;
+  top: 18rem;
+  transform: translate(-50%);
+  border-bottom: 4px solid black;
+  padding: 0px 0px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.add-to-inventory {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  width: 50px;
+  cursor: pointer;
+  height: 50px px;
+  font-size: 35px;
+  text-align: center;
+  transition-duration: 0s;
+}
+
+.add-to-inventory:hover {
+  background-color: #45a049;
+}
+
+.inventory-table-container {
+  overflow-x: auto;
+}
+
+.table-headings {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  /* border: 3px solid darkgrey; */
+  padding: 12px 0px;
+  /* border-radius: 12px; */
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 46.8rem auto 1rem auto;
+  position: sticky;
+  top: 0rem;
+  background-color: white;
+  font-family: monospace;
+  z-index: 1;
+  border-right-color: white;
+  /* border-top-right-radius: 0px; */
+  border-left-color: white;
+  border-bottom: 3px solid darkgrey;
+  border-top: 5px solid green;
+}
+.row {
+  width: 100%;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.non-edit {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+#edit-div {
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+/* div#edit-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+} */
+
+input#edit-items {
+  padding: 22px 0px;
+  font-size: 1rem;
+  width: 100%;
+  border-bottom: 0px;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.item {
+  padding: 1.3rem 0px;
+  /* margin-right: 2px; */
+  outline: none;
+  margin: 0 0;
+  font-size: 14px;
+  /* width: 154px; */
+  text-align: center;
+}
+
+input {
+  border: 0px;
+  /* border-bottom: 1px solid; */
+  /* margin-bottom: 1rem; */
+  /* padding: 1rem; */
+  transition: all 0.2s ease-in-out;
+  /* font-size: 1.3rem; */
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  font-size: 12px;
+}
+.non-edit-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-size: xxx-large;
+}
+
+.delete-btn,
+.edit-btn {
+  font-size: 2.5rem;
+  /* background-color: black; */
+  border: 0px;
+  background-color: white;
+}
+.non-edit-item {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+.heading {
+  font-family: monospace;
+  text-decoration: overline;
+  text-align: center;
+  background-color: white;
+  position: sticky;
+  top: 0.5rem;
+  width: 100%;
+  z-index: 2;
+  text-decoration-color: darkgreen;
+  text-align: center;
+  margin: 0px auto;
+  /* padding: 0px; */
+  /* margin-bottom: 3rem; */
+}
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  color: black;
+}
+.high-stock {
+  background-color: #3c6c3c; /* Light green for high stock */
+}
+
+.moderate-stock {
+  background-color: #bdbd39; /* Light yellow for moderate stock */
+}
+
+.low-stock {
+  background-color: #ab4949; /* Light red for low stock */
+}
+.stock-img {
+  width: 30px;
+  height: 30px;
+}

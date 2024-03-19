@@ -1,0 +1,17 @@
+.showCart {
+  opacity: 1;
+}
+.hideCart {
+  opacity: 0;
+}
+button.go-to-checkout {
+  position: fixed;
+  bottom: 0.1rem;
+  right: 1.5rem;
+  width: 20rem;
+  border-top-left-radius: 0rem;
+  padding: 1rem;
+  border-bottom-right-radius: 5rem;
+  font-size: 1.2rem;
+  font-family: monospace;
+}

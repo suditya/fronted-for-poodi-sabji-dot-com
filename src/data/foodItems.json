@@ -1,0 +1,93 @@
+[
+    {
+        "id": "0",
+        "title": "Butter Chicken",
+        "description": "A classic Indian dish of tender chicken pieces cooked in a creamy tomato gravy with butter and spices.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "1",
+        "title": "Dosa",
+        "description": "A thin, crispy crepe made from fermented rice and lentil batter, often served with sambar ( lentil stew) and chutney.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "2",
+        "title": "Palak Paneer",
+        "description": "Cottage cheese cubes cooked in a creamy spinach gravy with spices.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "3",
+        "title": "Biryani",
+        "description": "A fragrant rice dish layered with meat, vegetables, and spices.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "4",
+        "title": "Naan",
+        "description": "Soft, leavened flatbread cooked in a tandoor oven.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "5",
+        "title": "Samosa",
+        "description": "A crispy fried or baked pastry filled with spiced potatoes and other vegetables.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "6",
+        "title": "Chole Bhature",
+        "description": "Spicy chickpea curry served with fluffy fried bread (bhature).",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "7",
+        "title": "Vada Pav",
+        "description": "A potato fritter patty served in a pav (bread bun) with chutneys.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "8",
+        "title": "Idli",
+        "description": "Soft, steamed rice cakes made from fermented rice and lentil batter.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "9",
+        "title": "Dhokla",
+        "description": "A savory steamed cake made from fermented chickpea batter.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "10",
+        "title": "Aloo Gobi",
+        "description": "Potatoes and cauliflower cooked in a spiced curry.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "11",
+        "title": "Malai Kofta",
+        "description": "Vegetable dumplings cooked in a creamy tomato gravy.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "12",
+        "title": "Chicken Tikka Masala",
+        "description": "Marinated chicken pieces grilled in a tandoor and cooked in a creamy tomato gravy.",
+        "src": "https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpgf",
+        "quantity": 0
+    }
+]
