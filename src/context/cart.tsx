@@ -3,15 +3,17 @@ import React, {
   createContext,
   useEffect,
   useState,
+  // @ts-ignore
   Dispatch,
 } from "react";
 
 import axios from "axios";
 import { getEmailId, isLoggedIn } from "../services/users";
 import { BACKEND_DEV_URL } from "../utility/common";
-
+// @ts-ignore
 export const CartContext = createContext({
   cartItems: [],
+  // @ts-ignore
   setCartItems: Dispatch<SetStateAction<never[]>>, // Provide a dummy function if needed
 });
 

@@ -85,14 +85,14 @@ const Register = () => {
         setTimeout(() => navigate("/login"), 1000);
       } else {
         toast.error(
-          `Not able to register due to ${error.response.data.message} ❌`,
+          `Not able to register due to ${response.data.message} ❌`,
           {
             position: "top-center",
             // delay: 2500,
           }
         );
       }
-    } catch (error) {
+    } catch (error:any) {
       toast.error(
         `Not able to register due to ${error.response.data.message} ❌`,
         {

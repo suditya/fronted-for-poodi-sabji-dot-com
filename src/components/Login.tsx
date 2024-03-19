@@ -104,7 +104,7 @@ const Login = () => {
           // delay: 2500,
         });
       }
-    } catch (error) {
+    } catch (error:any) {
       console.log(error);
       toast.error(`Could not login due to: ${error.response.data.message} ❌`, {
         position: "top-center",

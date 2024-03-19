@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import foodItems from "../data/foodItems.json";
-import Carousel from "./Carousel";
 import Cart from "./Cart";
 import FoodCard2 from "./FoodCard2";
 import Navbar from "./Navbar";
@@ -59,7 +57,8 @@ const Home = () => {
       <button
         style={{ transition: "all 0.8s ease-out" }}
         className={
-          "go-to-checkout button " + (cartItems.length > 0 ? "showCart" : "hideCart")
+          "go-to-checkout button " +
+          (cartItems.length > 0 ? "showCart" : "hideCart")
         }
         onClick={() => navigate("/checkout")}
       >
