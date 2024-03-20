@@ -28,7 +28,12 @@ const Navbar = () => {
       </video> */}
       <div className="left">
         <Link style={{ textDecoration: "none", color: "white" }} to="/">
-          <h4>🌽 poodi-sabji.com</h4>
+          {/* <h4 className="website-name">🍽️ poodi-sabji.com</h4> */}
+          <div className="website-name-container">
+            <p>🍽️ </p>
+            <p>poodi-sabji</p>
+            <p>dot-com</p>
+          </div>
         </Link>
       </div>
       <div className="right">

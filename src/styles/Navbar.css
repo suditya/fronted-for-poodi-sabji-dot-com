@@ -7,17 +7,21 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Center vertically */
+  align-items: center;
   background-color: black;
   color: white;
-  padding: 1.8rem;
+  padding: 0.8rem;
   font-size: larger;
   font-family: monospace;
   font-weight: 900;
+  position: sticky;
+  top: 0;
+  /* left: 60px; */
+  z-index: 2;
 }
 
 .left {
-  width: 30%;
+  width: 18%;
 }
 
 .right {
@@ -55,6 +59,20 @@
   background-color: white;
   color: green;
 }
+
+.website-name-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 1.5rem;
+  margin-left: 12px;
+  /* background-color: black; */
+  /* padding: 3px; */
+  /* border-radius: 23px; */
+  /* position: absolute; */
+  /* top: 1rem;
+  left: 0.5rem; */
+}
+
 /* .userName {
   font-size: 1.4rem;
   font-weight: 700;

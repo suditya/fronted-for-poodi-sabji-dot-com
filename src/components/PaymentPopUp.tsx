@@ -86,7 +86,28 @@ const PaymentPopup = () => {
               className="payment-done"
               src="https://cdn.dribbble.com/users/1751799/screenshots/5512482/media/1cbd3594bb5e8d90924a105d4aae924c.gif"
             />
-            <button onClick={downloadBill}>Download Bill PDF</button>
+            {/* <div className="pushable">
+              <button
+                onClick={downloadBill}
+                className="download-pdf-button front"
+              >
+                Download Bill PDF 🢃 🌿 */}
+            {/* <span
+                role="img"
+                aria-label="Download"
+                style={{ fontSize: "23px" }}
+              >
+                ⬇️
+              </span>
+              Download Bill PDF */}
+            {/* </button>
+            </div> */}
+
+            <button className="pushable" onClick={downloadBill}>
+              <span className="shadow"></span>
+              <span className="edge"></span>
+              <span className="front">Download Bill PDF 🌿 </span>
+            </button>
           </div>
         )}
       </div>
