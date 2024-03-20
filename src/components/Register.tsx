@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 // import { error } from "console";
 import { Link, useNavigate } from "react-router-dom";
+import { BACKEND_DEV_URL } from "../utility/common";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -71,7 +72,7 @@ const Register = () => {
     try {
       const userData = { email, password, name };
       const response = await axios.post(
-        "http://localhost:3000/api/register",
+        `${BACKEND_DEV_URL}/register`,
         userData
       );
       console.log(response);
