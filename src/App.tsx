@@ -1,4 +1,4 @@
-// import "bootstrap/dist/css/bootstrap.min.css"; 
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -11,6 +11,8 @@ import Login from "./components/Login";
 import PaymentPopup from "./components/PaymentPopUp";
 import PlaceOrder from "./components/PlaceOrder";
 import Register from "./components/Register";
+import AboutUs from "./components/AboutUs";
+import Notfound from "./components/Notfound";
 <style>
   @import
   url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Nova+Mono&family=Tektur&display=swap')
@@ -28,6 +30,8 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/payment" element={<PaymentPopup />} />
         <Route path="/inventory" element={<Inventory />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="*" element={<Notfound />} />
         {/* <Route path="/logout" element={<Logout />} /> */}
       </Routes>
       <ToastContainer />
