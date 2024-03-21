@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 const Checkout = () => {
   const cart = useContext(CartContext);
-  const cartItems = cart.cartItems as ICartProps[];
+  const cartItems = (cart.cartItems ?? []) as ICartProps[];
   const navigate = useNavigate();
 
   const getTotalPrice = () => {
@@ -37,7 +37,7 @@ const Checkout = () => {
       <Navbar />
       <div className="checkout-container">
         <div className="cart-items">
-          {cartItems.length > 0 ? (
+          {cartItems && cartItems.length > 0 ? (
             cartItems.map((item: ICartProps, index: number) => (
               <div key={index} className="checkout-box">
                 <img src={item.src} alt="" />

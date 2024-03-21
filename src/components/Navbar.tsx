@@ -4,6 +4,8 @@ import { toast } from "react-toastify";
 import { getUserName, isAdminLogin, isLoggedIn } from "../services/users";
 import { useContext } from "react";
 import { CartContext } from "../context/cart";
+import { IoCart, IoLogOutOutline } from "react-icons/io5";
+import { IoIosHome } from "react-icons/io";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -37,8 +39,12 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="right">
-        <Link to="/">🏠 Home</Link>
-        <Link to="/checkout">🛒 Checkout</Link>
+        <Link to="/">
+          Home <IoIosHome className="nav-icons" />
+        </Link>
+        <Link to="/checkout">
+          Checkout <IoCart className="nav-icons" />
+        </Link>
         {!isLoggedIn() ? (
           <>
             <Link to="/login">🔐 Login</Link>
@@ -48,7 +54,7 @@ const Navbar = () => {
           <>
             <a className="userName">Hi,{getUserName()}!</a>
             <a className="logout" onClick={handleLogout}>
-              🚪 Logout
+              Logout <IoLogOutOutline className="nav-icons" />
             </a>
             {isAdminLogin() ? <Link to="/inventory">INVENTORY</Link> : <> </>}
           </>
