@@ -43,7 +43,7 @@ const PlaceOrder = () => {
       <Navbar />
       <div className="place-order-container">
         <div className="order-summary">
-          <h2>Order Summary</h2>
+          <h2 className="order-summary-heading">Order Summary</h2>
           <table>
             <thead>
               <tr>
@@ -57,13 +57,18 @@ const PlaceOrder = () => {
                 <tr key={item.id}>
                   <td>{item.title}</td>
                   <td>{item.quantity}</td>
-                  <td><span>&#8377;</span> {item.price}</td>
+                  <td>
+                    <span>&#8377; {item.price}</span>
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
-          <p>Total: <span>&#8377;</span> {getTotalPrice()}</p>
+          <p className="total-price">
+            Total: <span>&#8377; {getTotalPrice()}</span>
+          </p>
           <button
+            className="place-order-btn"
             // disabled={cartItems.length <= 0}
             onClick={() => handlePlaceOrder()}
           >
