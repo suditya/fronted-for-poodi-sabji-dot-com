@@ -30,6 +30,10 @@ const PlaceOrder = () => {
     // }, 0);
   };
 
+  const handleEditBackOrder = () => {
+    navigate("/checkout");
+  };
+
   const getTotalPrice = () => {
     let sum = 0;
     for (const item of cartItems) {
@@ -67,13 +71,22 @@ const PlaceOrder = () => {
           <p className="total-price">
             Total: <span>&#8377; {getTotalPrice()}</span>
           </p>
-          <button
-            className="place-order-btn"
-            // disabled={cartItems.length <= 0}
-            onClick={() => handlePlaceOrder()}
-          >
-            Place Order
-          </button>
+          <div className="place-order-buttons-container">
+            <button
+              className="back-btn"
+              // disabled={cartItems.length <= 0}
+              onClick={() => handleEditBackOrder()}
+            >
+              Back to Edit Order
+            </button>
+            <button
+              className="place-order-btn"
+              // disabled={cartItems.length <= 0}
+              onClick={() => handlePlaceOrder()}
+            >
+              Confirm and Place Order
+            </button>
+          </div>
         </div>
       </div>
       {orderPlaced && <OrderConfirmation />}

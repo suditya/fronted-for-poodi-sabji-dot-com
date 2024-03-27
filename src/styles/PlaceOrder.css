@@ -82,3 +82,26 @@ td {
   color: #666;
   font-weight: bold;
 }
+.place-order-buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15rem;
+  align-items: center;
+  align-content: center;
+  justify-items: stretch;
+  justify-content: center;
+}
+.back-btn {
+  background-color: grey;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  /* background-color: black; */
+  font-weight: 600;
+  /* background-color: black; */
+}
